@@ -57,17 +57,14 @@ body {
   align-items: center;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: var(--white);
+.logo-img {
+  height: 40px;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: opacity 0.3s;
 }
 
-.logo:hover {
-  color: var(--accent);
+.logo-img:hover {
+  opacity: 0.8;
 }
 
 .nav-links {
@@ -532,5 +529,9 @@ body {
   
   .section-container {
     padding: 60px 24px;
+  }
+
+  .logo-img {
+    height: 32px;
   }
 }

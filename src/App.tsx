@@ -26,7 +26,7 @@ function App() {
       {/* Navbar */}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
-          <div className="logo" onClick={() => scrollTo('hero')}>MOVESHOT</div>
+          <img src="/Logo MoveShot- AZUL - AALTA.png" alt="Moveshot" className="logo-img" onClick={() => scrollTo('hero')} />
           <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
             <button onClick={() => scrollTo('servicios')}>Servicios</button>
             <button onClick={() => scrollTo('portfolio')}>Portfolio</button>
